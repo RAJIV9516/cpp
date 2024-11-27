@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int n=0;
+int main() {
+for(int r=1; r<=5; ++r){
+    n=r;
+    for(int c=1; c<=5; ++c){
+        if(c>=6-r){
+            cout<<n++;
+        }
+        else{
+            cout<<" ";
+        }
+    }cout<<"\n";
+}
+}

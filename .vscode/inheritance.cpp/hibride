@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class a{
+   public: void display(){
+        cout<<"hello";
+    }
+};
+class b: virtual public a{
+    
+    
+};
+class c: virtual public a,virtual public b{
+    
+};
+int main() {
+    c obj;
+    obj.display();
+
+}
